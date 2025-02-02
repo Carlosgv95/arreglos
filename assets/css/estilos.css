@@ -1,0 +1,50 @@
+.main-section {
+    background-image: url('../img/img-main.jpeg');
+    background-size: cover;
+    /* La imagen cubrirá todo el ancho y largo */
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+h2 {
+    padding: 20px;
+}
+
+#enVenta {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    margin-bottom: 15px;
+}
+
+#enAlquiler {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    margin-bottom: 15px;
+}
+
+.card1 {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.card1 img {
+    width: 100%;
+    height: 250px;
+}
+
+.card2 {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.card2 img {
+    width: 100%;
+    height: 250px;
+}
